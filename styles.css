@@ -1,0 +1,407 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: rgb(46, 46, 46);
+    overflow: hidden;
+    width: 100%;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo {
+    max-width: 100px;
+    /* Adjust max-width according to your logo size */
+    padding-right: 10%;
+
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-item {
+    padding: 14px 20px;
+    padding-right: -10%;
+}
+
+.nav-item a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+
+}
+
+.nav-item a:hover {
+
+    color: rgb(255, 0, 200);
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: white;
+}
+
+.hero-s {
+    width: 97%;
+    height: 91vh;
+    background-color: rgb(46, 46, 46);
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    padding-left: 3%;
+
+}
+
+.he1>h1 {
+    margin-top: -1%;
+    font-size: 5rem;
+    color: white;
+}
+
+.he1>h2 {
+    font-size: 4rem;
+
+}
+
+.s2 {
+    width: 100%;
+    height: 110vh;
+    background-color: rgb(36, 36, 36);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.s2>h1 {
+    width: 30%;
+    text-align: center;
+    color: rgb(255, 0, 200);
+    font-size: 4vw;
+    font-weight: 20000;
+    border-bottom: 5px solid white;
+}
+
+.he2 {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p1 {
+    width: 50%;
+
+}
+
+.border {
+    margin-top: 20px;
+    width: 70%;
+    height: 70vh;
+    border: 7px solid rgb(255, 0, 200);
+
+}
+
+.border>img {
+    width: 90%;
+    position: relative;
+    margin-top: -20px;
+    margin-left: -10px;
+}
+
+.p2 {
+    width: 50%;
+    color: white;
+}
+
+.ps3 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.s3 {
+    width: 100%;
+    height: 115vh;
+    background-color: rgb(46, 46, 46);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.s3>h1 {
+    width: 30%;
+    text-align: center;
+    color: rgb(255, 0, 200);
+    font-size: 4vw;
+    font-weight: 20000;
+    border-bottom: 5px solid white;
+}
+
+.portfolio-1,
+.portfolio-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+}
+
+.i1,
+.i2 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 34%;
+    height: 40vh;
+
+}
+
+.i1>img {
+    width: 70%;
+    height: 40vh;
+    border: 4px solid rgb(255, 0, 200);
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.i2>img {
+    width: 70%;
+    height: 40vh;
+    border: 4px solid rgb(255, 0, 200);
+    border-radius: 10px;
+}
+
+.s4 {
+    width: 100%;
+    height: 130vh;
+    background-color: rgb(36, 36, 36);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.s4>h1 {
+    width: 30%;
+    text-align: center;
+    color: rgb(255, 0, 200);
+    font-size: 4vw;
+    font-weight: 20000;
+    border-bottom: 5px solid white;
+}
+
+.i12 {
+    width: 30%;
+    height: 40vh;
+    margin-bottom: 20px;
+    box-shadow: 2px 5px 7px 5px black;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.i12>h2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+    background-color: #ff00d4;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.footer .social-icons {
+    margin-bottom: 20px;
+}
+
+.footer .social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+}
+
+.footer .social-icons a i {
+    margin: 0 10px;
+}
+
+.footer .menu {
+    margin-bottom: 20px;
+}
+
+.footer .menu a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+}
+
+.footer .menu a:hover {
+    text-decoration: underline;
+}
+
+.footer .contact-info {
+    margin-bottom: 20px;
+}
+
+.footer .contact-info p {
+    margin: 5px 0;
+}
+
+.footer .contact-info a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer .contact-info a:hover {
+    text-decoration: underline;
+}
+
+.footer .copyright {
+    font-size: 0.9em;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .navbar-container {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    body {
+        background-color: rgb(36, 36, 36);
+    }
+
+    .s4 {
+        margin-top: 105%;
+    }
+
+    .s3 {
+        margin-top: 90%;
+    }
+
+    .footer {
+        margin-top: 20%;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        display: none;
+        width: 100%;
+    }
+
+    .nav-list.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-item {
+        text-align: center;
+        padding: 10px 0;
+        width: 100%;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .he1>h1 {
+        font-size: 8vw;
+    }
+
+    .he1>h2 {
+        font-size: 6vw;
+    }
+
+    .he2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .p1,
+    .p2 {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .border {
+        width: 100%;
+        height: auto;
+    }
+
+    .border>img {
+        width: 100%;
+        height: auto;
+    }
+
+    .ps3 {
+        text-align: center;
+    }
+
+    .portfolio-1,
+    .portfolio-2 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .i1,
+    .i2 {
+        width: 90%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .i1>img,
+    .i2>img {
+        width: 100%;
+        height: auto;
+    }
+
+    .i12 {
+        width: 80%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .he1>h1 {
+        font-size: 10vw;
+    }
+
+    .he1>h2 {
+        font-size: 8vw;
+    }
+
+    .s2>h1,
+    .s3>h1,
+    .s4>h1 {
+        width: 80%;
+        font-size: 6vw;
+    }
+}
