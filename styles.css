@@ -2,6 +2,35 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
+        .container {
+            display: flex;
+            align-items: baseline;
+        }
+        .animated-text h1, .animated-text h2 {
+            opacity: 0;
+            animation: fadeIn 1s forwards;
+        }
+        .animated-text h2 {
+            color: rgba(148, 148, 148, 0.856);
+            animation-delay: 0s;
+        }
+        .animated-text h1 {
+            animation-delay: 1s;
+        }
+        .animated-text div {
+            width: 10px;
+            height: 10px;
+            margin-left: 10px;
+            background-color: rgb(255, 0, 200);
+            opacity: 0;
+            animation: fadeIn 1s forwards;
+            animation-delay: 2s;
+        }
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
 
 .navbar {
     background-color: rgb(46, 46, 46);
